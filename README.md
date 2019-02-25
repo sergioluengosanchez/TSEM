@@ -23,12 +23,19 @@ sudo pip install "Library"
 where Library must be replaced by the library to be installed.
 
 Open the folder where you have saved TSEM project files (e.g., "~/Downloads/TSEM") and compile Cython files running the following commands in the command console:
+
 python2.7 setup_dt.py build_ext --inplace
+
 python2.7 setup_tw.py build_ext --inplace
+
 python2.7 setup_et.py build_ext --inplace
+
 python2.7 setup_cplus.py build_ext --inplace
+
 python2.7 setup_cplus_data.py build_ext --inplace
+
 python2.7 setup_gs.py build_ext --inplace
+
 python2.7 setup_etc.py build_ext --inplace
 
 ## Example.py
