@@ -1,7 +1,7 @@
 ## Introduction
 Most real-world problems require dealing with incomplete data. Bayesian networks robustly handle missing values during inference, but learning them from incomplete datasets is not straightforward. Using the structural expectation-maximization algorithm is the most common approach to address this problem, but its main limitation is its highly demanding computational cost. As structural expectation-maximization spends most of its running time performing inference, efficient inference is essential. This can be achieved by bounding the inference complexity of the Bayesian network candidates.  This paper proposes a tractable adaptation of the structural expectation-maximization algorithm that theoretically provides guarantees on its convergence. We perform experiments that support empirically our claims.
 
-##Prerequirements and installing guide
+## Prerequirements and installing guide
 
 This software has been developed as a Python 2.7.15 package and includes some functionalities in Cython and C++11 (version 5.4.0). Consequently, it is needed a Python environment and internet connectivity to download additional package dependencies. Python software can be downloaded from <https://www.python.org/downloads/>.
 
